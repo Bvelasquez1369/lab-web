@@ -124,7 +124,7 @@ function eliminarUltimoFavorito() {
 }
 
 function eliminarTodosFavoritos() {
-    if (confirm('⚠️ ¿Estás seguro de que quieres eliminar TODOS tus Pokémon favoritos?')) {
+    if (confirm('⚠️ ¿Estás seguro de que quieres eliminar tus Pokemon favoritos?')) {
         localStorage.removeItem('misFavoritosPokemon');
         mostrarFavoritos();
         alert('Todos los favoritos han sido eliminados.');
